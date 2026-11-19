@@ -141,6 +141,21 @@ Example, from nextest:
 - If asked "what does that mean?", the previous wording failed. Start over from the reader's
   side; don't make a shorter version of it.
 
+## Mechanics
+
+- Use sentence case for headings and titles, never title case.
+- End every comment with a period.
+- Use `backticks` for code, commands, file paths, and config keys, _italics_ for a term
+  being defined, and **bold** for a key claim.
+- Vary sentence length: short sentences for emphasis, longer ones for nuance. Prefer the
+  active voice.
+- For instructions, put the goal first: "To install a pre-built binary, run ...".
+- Use em dashes sparingly, and only for parentheticals. A colon is fine when what follows
+  it explains what came before, but it shouldn't stand in for "because" or "so".
+- Put the most important information first, in each section and each paragraph. When a
+  piece goes from simple to advanced, edge cases come last.
+- Never invent URLs, or cite sources you haven't checked.
+
 ## Things to avoid
 
 - Telegraphic compression: dropped articles, verbs, or subjects ("sh's quoting whatever
@@ -155,9 +170,10 @@ Example, from nextest:
   mechanical conventions (wrap width, periods, sentence case, vocabulary) but still write
   complete, clear sentences.
 - Filler that sounds like an LLM: "It's worth noting that", "This ensures that", "robust",
-  "seamless", "leverage", "comprehensive", praise of the reader, and summaries that repeat
-  what was just said.
-- "Just" and "simply", and hedging where you're sure.
+  "seamless", "leverage", "comprehensive", praise of the reader ("You're absolutely right!"),
+  and summaries that repeat what was just said.
+- "Just" and "simply", which make hard things sound easy, and hedging where you're sure.
+- Over-explaining the obvious, and burying the lede.
 - Emojis, except in casual personal writing.
 
 ## A worked rewrite
