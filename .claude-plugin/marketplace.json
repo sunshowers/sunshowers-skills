@@ -1,0 +1,26 @@
+{
+  "name": "sunshowers",
+  "owner": {
+    "name": "Rain"
+  },
+  "metadata": {
+    "description": "Claude Code skills by Rain (sunshowers): Rust crate guidance, unsafe Rust review, and a prose style."
+  },
+  "plugins": [
+    {
+      "name": "oxide-crates",
+      "source": "./plugins/oxide-crates",
+      "description": "A catalog of Rust crates maintained by Rain and by Oxide Computer Company, with guidance on when each one fits."
+    },
+    {
+      "name": "unsafe-rust-review-experimental",
+      "source": "./plugins/unsafe-rust-review-experimental",
+      "description": "Author, document, review, and audit unsafe Rust, treating each safety contract as something to prove. Experimental."
+    },
+    {
+      "name": "rain-prose-style",
+      "source": "./plugins/rain-prose-style",
+      "description": "Write comments, docs, and commit messages the way Rain does: plain, complete sentences that spell out the reasoning."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "oxide-crates",
+  "description": "A catalog of Rust crates maintained by Rain and by Oxide Computer Company, with guidance on when each one fits.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Rain"
+  },
+  "license": "MIT OR Apache-2.0"
+}
